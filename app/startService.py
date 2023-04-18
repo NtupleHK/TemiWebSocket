@@ -51,4 +51,4 @@ async def reply_hello_world(EmitData: EmitData):
     response = emitPairTemi(EmitData.serialNo, EmitData.password)
     sleep(2)
     sio.disconnect()
-    return {"message": response}
+    return {"result": response}

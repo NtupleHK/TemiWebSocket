@@ -1,1 +1,1 @@
-uvicorn app.startService:TemiWebSocket --reload
+uvicorn startService:TemiWebSocket --reload
